@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>曦曦的分析報告 | Xi's Analytics</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="title">🌸 曦曦的分析報告</h1>
+                <p class="subtitle">Xi' s Analytics & Insights</p>
+                <div class="hero-tags">
+                    <span class="tag">金融分析</span>
+                    <span class="tag">數據視覺化</span>
+                    <span class="tag">市場趨勢</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-decoration"></div>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>📊 關於這個網站</h2>
+            <p>這裡收錄了曦曦為樹精心準備的各種分析報告與數據可視化成果。</p>
+            <p>從金融市場趨勢到技術分析，我們一起探索數據的奧秘！</p>
+        </section>
+
+        <section class="reports">
+            <h2>📑 報告列表</h2>
+            <div class="report-grid" id="reportGrid">
+                <!-- Reports will be dynamically loaded here -->
+                <div class="report-card" onclick="openReport('bitcoin-analysis.html')">
+                    <div class="report-icon">📈</div>
+                    <h3>比特幣趨勢分析</h3>
+                    <p class="report-date">2026-03-02</p>
+                    <p class="report-desc">比特幣 (BTC) 近期趨勢量化分析報告</p>
+                    <span class="read-more">閱讀更多 →</span>
+                </div>
+                
+                <div class="report-card coming-soon">
+                    <div class="report-icon">🔒</div>
+                    <h3>敬請期待</h3>
+                    <p class="report-desc">更多精彩報告即將上線...</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <h2>📈 數據統計</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" id="reportCount">1</div>
+                    <div class="stat-label">報告數量</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">2026</div>
+                    <div class="stat-label">起始年份</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">💕</div>
+                    <div class="stat-label">為樹而生</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>🌸 由曦曦 ❤️ 樹 共同打造</p>
+            <p class="footer-note">"晨曦照著樹" - Morning sunlight shining on the tree</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
